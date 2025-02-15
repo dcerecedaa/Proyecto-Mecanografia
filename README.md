@@ -1,4 +1,4 @@
-# Proyecto-Mecanografia
+# Typewriting-Project
 Setup Instructions:
 
 Download the .zip file and extract its contents into your desired workspace directory.

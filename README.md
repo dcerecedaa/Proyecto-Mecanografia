@@ -1,5 +1,5 @@
 # Typewriting-Project
-Setup Instructions:
+# Setup Instructions:
 
 Download the .zip file and extract its contents into your desired workspace directory.
 

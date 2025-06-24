@@ -69,8 +69,55 @@ This application helps users develop strong typing skills through:
 
 ## 🛠️ Installation & Usage
 
-### 🔧 Step-by-Step Guide
+Open Eclipse, then go to:
+File > Import > General > Existing Projects into Workspace
+Select the extracted project folder and click **Finish**.
 
-1. **Clone or Download** the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
+Run the app from `PantallaCarga.java` as a **Java Application**.
+
+> ⚠️ **Important**: Do **not** modify the `.java` files unless you're editing functionality.  
+> You can safely edit the `.txt` files to update users or texts.
+
+---
+
+## 📁 Project File Structure
+src/
+├── 🚀 PantallaCarga.java # Main entry point
+├── 🏠 PanelBienvenida.java # Welcome screen
+├── 🔐 PanelLogin.java # User/Admin login
+├── 👤 PanelUsuario.java # User dashboard
+├── 👑 PanelAdministrador.java # Admin panel
+├── 🅰️ PanelNivelFacil.java # Easy typing level
+├── 🅱️ PanelNivelDificil.java # Hard typing level
+├── ✏️ Lecciones.java # Content editor for admin
+├── 👥 usuarios.txt # User credentials
+├── 📝 textos.txt # Practice texts
+└── 📊 estadisticas.txt # Typing session statistics
+---
+
+## 💻 Technology Stack
+
+| Category         | Details                             |
+|------------------|-------------------------------------|
+| **Language**     | Java 22                             |
+| **UI Library**   | Java Swing                          |
+| **Storage**      | Plain text files (`.txt`)           |
+| **Design**       | Futuristic aesthetic with animation |
+| **Compatibility**| Windows, macOS, Linux               |
+
+---
+
+## ⭐ Support & Contribute
+
+If you find this project helpful:
+
+- 🌟 Star this repository on GitHub  
+- 🛠️ Fork it and create your own version  
+- 🐛 Open an issue if you find bugs or want to suggest features
+
+---
+
+## 👨‍💻 Author
+
+Developed by **David Cereceda**  
+🎓 Computer Science Student | Passionate about Java, C#, AI, and Educational Software

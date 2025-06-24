@@ -1,5 +1,5 @@
 Typing Practice Application - README
-https://fondo.png
+
 
 Overview
 Improve your typing skills with this Java-based typing practice application! This project offers two difficulty levels, real-time performance tracking, and a beautiful futuristic UI. Perfect for beginners and advanced typists alike.

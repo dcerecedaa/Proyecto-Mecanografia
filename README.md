@@ -1,108 +1,76 @@
-Typing Practice Application - README
-Overview 💻
-Improve your typing skills with this Java-based application featuring a futuristic UI, two difficulty levels, and real-time performance tracking. Perfect for beginners and advanced typists!
+# ✨ Typing Practice Application
 
-Key Features ✨
-🎯 Two difficulty levels with custom texts
+Welcome to the Typing Practice App! Improve your typing speed, accuracy, and finger placement with this futuristic, educational Java application.
 
-📊 Real-time statistics (PPM, errors, points)
+---
 
-👤 User profiles with saved statistics
+## 💻 Overview
 
-👨‍💻 Admin panel for content management
+This application helps users develop strong typing skills through:
 
-⌨️ On-screen keyboard with visual feedback
+- Real-time interactive feedback
+- Detailed performance analytics
+- Visual keyboard interface
+- Error-limited, time-bound challenges
+- User and admin roles with saved progress
 
-⏱️ Timed typing challenges with error limits
+> Perfect for beginners learning touch typing and advanced typists aiming to break speed records.
 
-🖥️ Futuristic UI design with animated elements
+---
 
-📁 File-based storage (no database required)
+## 🚀 Key Features
 
-🔒 Secure authentication system
+### 🎯 Core Functionality
 
-📈 Performance tracking with session saving
+- ✅ Dual difficulty levels: Easy and Hard
+- ✅ Real-time statistics: Keystrokes per minute (PPM), error count, and points
+- ✅ User profiles with saved performance data
+- ✅ Admin panel to manage users and edit practice content
 
-Installation 🛠️
-Download the project ZIP file
+### ✨ User Experience
 
-Extract contents to your preferred directory
+- 🎹 Virtual keyboard with real-time visual feedback
+- ⏱️ Timed challenges with error limits
+- 💡 Futuristic user interface with animated elements
+- 📈 Performance tracking and session saving
 
-Import into Eclipse:
+### ⚙️ Technical Capabilities
 
-Open Eclipse IDE
+- 🧾 File-based storage (no database needed)
+- 🔐 Secure login and authentication system
+- 🧼 Input validation at multiple levels
+- 💻 Cross-platform support (Windows, macOS, Linux)
 
-Go to File > Import > General > Existing Projects into Workspace
+---
 
-Select the extracted folder
+## 📋 Application Structure
 
-Click Finish
+| Screen              | Description                                  |
+|---------------------|----------------------------------------------|
+| **Loading Screen**  | Validates required files and configuration   |
+| **Welcome Screen**  | Entry point with "Play" and "Exit" options   |
+| **Login Screen**    | Secure login for Users and Admins            |
+| **User Panel**      | Access to levels, stats, and tutorials       |
+| **Admin Panel**     | User management and text editing             |
+| **Typing Practice** | Typing interface with real-time stats        |
 
-Running the Application ▶️
-Locate the PantallaCarga.java file
+---
 
-Right-click and select Run As > Java Application
+## 🎮 Difficulty Levels
 
-Application Structure 🖥️
-Loading Screen
-Validates essential files and configurations
+| Feature         | 🅰️ Easy Mode           | 🅱️ Hard Mode            |
+|-----------------|------------------------|--------------------------|
+| Text Length     | 200 characters         | 1000 characters          |
+| Time Limit      | 4 minutes              | 3 minutes                |
+| Max Errors      | 5                      | 3                        |
+| Target Audience | Beginners              | Advanced typists         |
 
-Checks system requirements
+---
 
-Shows progress bar during initialization
+## 🛠️ Installation & Usage
 
-Welcome Screen
-Futuristic design with animated visual effects
+### 🔧 Step-by-Step Guide
 
-Clean interface with "Play" and "Exit" options
-
-Login Screen
-Secure authentication for users and admins
-
-Input validation with visual feedback
-
-User Panel
-Choose difficulty level (Easy/Hard)
-
-View personal statistics
-
-Access typing tutorial
-
-Logout functionality
-
-Admin Panel
-User management (add/remove users)
-
-Edit practice texts for both levels
-
-View all registered users
-
-Typing Practice
-Easy Level:
-200-character texts
-
-4-minute time limit
-
-Max 5 errors allowed
-
-Hard Level:
-1000-character texts
-
-3-minute time limit
-
-Max 3 errors allowed
-
-File Structure 📁
-text
-src/
-├── PantallaCarga.java       # Main entry point
-├── PanelBienvenida.java     # Welcome screen
-├── PanelLogin.java          # Login screen
-├── PanelUsuario.java        # User dashboard
-├── PanelAdministrador.java  # Admin controls
-├── PanelNivelFacil.java     # Easy typing level
-├── PanelNivelDificil.java   # Hard typing level
-├── Lecciones.java           # Text editing
-├── usuarios.txt             # User credentials
-├── textos.txt               # Practice content
-└── estadisticas.txt         # Performance data
+1. **Clone or Download** the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git

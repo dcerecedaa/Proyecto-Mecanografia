@@ -1,10 +1,8 @@
 Typing Practice Application - README
+Overview 💻
+Improve your typing skills with this Java-based application featuring a futuristic UI, two difficulty levels, and real-time performance tracking. Perfect for beginners and advanced typists!
 
-
-Overview
-Improve your typing skills with this Java-based typing practice application! This project offers two difficulty levels, real-time performance tracking, and a beautiful futuristic UI. Perfect for beginners and advanced typists alike.
-
-Key Features
+Key Features ✨
 🎯 Two difficulty levels with custom texts
 
 📊 Real-time statistics (PPM, errors, points)
@@ -15,125 +13,96 @@ Key Features
 
 ⌨️ On-screen keyboard with visual feedback
 
-⏱️ Timed typing challenges
+⏱️ Timed typing challenges with error limits
 
-How to Run the Application
-Prerequisites
-Java JDK 22 (or compatible version)
+🖥️ Futuristic UI design with animated elements
 
-Git (optional)
+📁 File-based storage (no database required)
 
-Installation Steps
-Download the project:
+🔒 Secure authentication system
 
-bash
-git clone https://github.com/yourusername/typing-practice-app.git
-or download the ZIP file and extract it
+📈 Performance tracking with session saving
 
-Navigate to project directory:
+Installation 🛠️
+Download the project ZIP file
 
-bash
-cd typing-practice-app
-Compile and run:
+Extract contents to your preferred directory
 
-bash
-javac -d bin src/*.java
-java -cp bin PantallaCarga
-Application Screens Explained
-1. Loading Screen (PantallaCarga)
-Validates all required files and configurations
+Import into Eclipse:
 
-Shows progress bar while initializing
+Open Eclipse IDE
 
-Ensures system meets requirements before starting
+Go to File > Import > General > Existing Projects into Workspace
 
-2. Welcome Screen (PanelBienvenida)
-Beautiful futuristic design with animated elements
+Select the extracted folder
 
-Options to start playing or exit
+Click Finish
 
-Clean, intuitive interface
+Running the Application ▶️
+Locate the PantallaCarga.java file
 
-3. Login Screen (PanelLogin)
-Secure authentication system
+Right-click and select Run As > Java Application
 
-Separate access for users and admins
+Application Structure 🖥️
+Loading Screen
+Validates essential files and configurations
 
-Visual feedback for incorrect credentials
+Checks system requirements
 
-4. User Panel (PanelUsuario)
-Choose between practice levels
+Shows progress bar during initialization
 
-View your typing statistics
+Welcome Screen
+Futuristic design with animated visual effects
+
+Clean interface with "Play" and "Exit" options
+
+Login Screen
+Secure authentication for users and admins
+
+Input validation with visual feedback
+
+User Panel
+Choose difficulty level (Easy/Hard)
+
+View personal statistics
 
 Access typing tutorial
 
 Logout functionality
 
-5. Admin Panel (PanelAdministrador)
-Manage users (add/remove)
+Admin Panel
+User management (add/remove users)
 
 Edit practice texts for both levels
 
 View all registered users
 
-Special privileges for content management
-
-6. Typing Practice (PanelNivelFacil/PanelNivelDificil)
+Typing Practice
 Easy Level:
-
 200-character texts
 
 4-minute time limit
 
-5 error allowance
-
-Perfect for beginners
+Max 5 errors allowed
 
 Hard Level:
-
 1000-character texts
 
 3-minute time limit
 
-3 error allowance
+Max 3 errors allowed
 
-Challenging for advanced users
-
-7. Statistics Tracking
-Points system (gain points for correct characters, lose for errors)
-
-Errors counter with limit
-
-Pulses Per Minute (PPM) calculation
-
-Time tracking
-
-Session saving capability
-
-Tutorial
-Access the typing tutorial from the user panel to see proper finger placement and typing techniques:
-
-https://tutorial.png
-
-Technical Details
-Built with Java Swing for the GUI
-
-File-based storage (no database required)
-
-Uses Java 22 features
-
-Futuristic UI with custom graphics
-
-Input validation at multiple levels
-
-Contribution
-Feel free to contribute to this project! Open issues or submit pull requests for:
-
-UI improvements
-
-Additional features
-
-Bug fixes
-
-Translation support
+File Structure 📁
+text
+src/
+├── PantallaCarga.java       # Main entry point
+├── PanelBienvenida.java     # Welcome screen
+├── PanelLogin.java          # Login screen
+├── PanelUsuario.java        # User dashboard
+├── PanelAdministrador.java  # Admin controls
+├── PanelNivelFacil.java     # Easy typing level
+├── PanelNivelDificil.java   # Hard typing level
+├── Lecciones.java           # Text editing
+├── usuarios.txt             # User credentials
+├── textos.txt               # Practice content
+└── estadisticas.txt         # Performance data

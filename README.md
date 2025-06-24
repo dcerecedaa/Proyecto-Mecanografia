@@ -81,18 +81,20 @@ Run the app from `PantallaCarga.java` as a **Java Application**.
 ---
 
 ## 📁 Project File Structure
+
+```plaintext
 src/
--├── 🚀 PantallaCarga.java # Main entry point
--├── 🏠 PanelBienvenida.java # Welcome screen
--├── 🔐 PanelLogin.java # User/Admin login
--├── 👤 PanelUsuario.java # User dashboard
--├── 👑 PanelAdministrador.java # Admin panel
--├── 🅰️ PanelNivelFacil.java # Easy typing level
--├── 🅱️ PanelNivelDificil.java # Hard typing level
--├── ✏️ Lecciones.java # Content editor for admin
--├── 👥 usuarios.txt # User credentials
--├── 📝 textos.txt # Practice texts
--└── 📊 estadisticas.txt # Typing session statistics
+├── 🚀 PantallaCarga.java        # Main entry point
+├── 🏠 PanelBienvenida.java      # Welcome screen
+├── 🔐 PanelLogin.java           # User/Admin login
+├── 👤 PanelUsuario.java         # User dashboard
+├── 👑 PanelAdministrador.java   # Admin panel
+├── 🅰️ PanelNivelFacil.java      # Easy typing level
+├── 🅱️ PanelNivelDificil.java    # Hard typing level
+├── ✏️ Lecciones.java            # Content editor for admin
+├── 👥 usuarios.txt              # User credentials
+├── 📝 textos.txt                # Practice texts
+└── 📊 estadisticas.txt          # Typing session statistics
 ---
 
 ## 💻 Technology Stack

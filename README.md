@@ -1,4 +1,4 @@
-# ✨ Typing Practice Application
+# ✨ Juego de mecanografia
 
 **Aplicación completa de mecanografía desarrollada en Java, pensada para mejorar velocidad, precisión y técnica mediante ejercicios interactivos y estadísticas en tiempo real.**
 

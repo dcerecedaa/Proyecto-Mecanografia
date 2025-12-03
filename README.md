@@ -1,125 +1,114 @@
-# ✨ Typing Practice Application
+✨ Typing Practice Application
 
-Welcome to the Typing Practice App! Improve your typing speed, accuracy, and finger placement with this futuristic, educational Java application.
+Aplicación completa de mecanografía desarrollada en Java, pensada para mejorar velocidad, precisión y técnica mediante ejercicios interactivos y estadísticas en tiempo real.
 
----
+💻 Overview
 
-## 💻 Overview
+Esta aplicación ayuda a los usuarios a mejorar sus habilidades de mecanografía mediante:
 
-This application helps users develop strong typing skills through:
+Entrenamientos interactivos en tiempo real
 
-- Real-time interactive feedback
-- Detailed performance analytics
-- Visual keyboard interface
-- Error-limited, time-bound challenges
-- User and admin roles with saved progress
+Estadísticas detalladas de rendimiento
 
-> Perfect for beginners learning touch typing and advanced typists aiming to break speed records.
+Interfaz visual con teclado virtual
 
----
+Retos temporizados con límite de errores
 
-## 🚀 Key Features
+Roles de usuario y administrador con progreso guardado
 
-### 🎯 Core Functionality
+Ideal para principiantes que aprenden mecanografía y para usuarios avanzados que buscan mejorar su velocidad.
 
-- ✅ Dual difficulty levels: Easy and Hard
-- ✅ Real-time statistics: Keystrokes per minute (PPM), error count, and points
-- ✅ User profiles with saved performance data
-- ✅ Admin panel to manage users and edit practice content
+🚀 Key Features
+🎯 Core Functionality
 
-### ✨ User Experience
+✅ Dos niveles de dificultad: Fácil y Difícil
 
-- 🎹 Virtual keyboard with real-time visual feedback
-- ⏱️ Timed challenges with error limits
-- 💡 Futuristic user interface with animated elements
-- 📈 Performance tracking and session saving
+✅ Estadísticas en tiempo real: PPM, errores y puntuación
 
-### ⚙️ Technical Capabilities
+✅ Perfiles de usuario con datos guardados
 
-- 🧾 File-based storage (no database needed)
-- 🔐 Secure login and authentication system
-- 🧼 Input validation at multiple levels
-- 💻 Cross-platform support (Windows, macOS, Linux)
+✅ Panel de administrador para gestionar usuarios y textos
 
----
+✨ User Experience
 
-## 📋 Application Structure
+🎹 Teclado virtual con feedback en tiempo real
 
-| Screen              | Description                                  |
-|---------------------|----------------------------------------------|
-| **Loading Screen**  | Validates required files and configuration   |
-| **Welcome Screen**  | Entry point with "Play" and "Exit" options   |
-| **Login Screen**    | Secure login for Users and Admins            |
-| **User Panel**      | Access to levels, stats, and tutorials       |
-| **Admin Panel**     | User management and text editing             |
-| **Typing Practice** | Typing interface with real-time stats        |
+⏱️ Retos temporizados con límite de errores
 
----
+💡 Interfaz visual clara y con animaciones
 
-## 🎮 Difficulty Levels
+📈 Seguimiento y guardado de estadísticas por sesión
 
-| Feature         | 🅰️ Easy Mode           | 🅱️ Hard Mode            |
-|-----------------|------------------------|--------------------------|
-| Text Length     | 200 characters         | 1000 characters          |
-| Time Limit      | 4 minutes              | 3 minutes                |
-| Max Errors      | 5                      | 3                        |
-| Target Audience | Beginners              | Advanced typists         |
+⚙️ Technical Capabilities
 
----
+🧾 Almacenamiento basado en archivos (.txt)
 
-## 🛠️ Installation & Usage
+🔐 Login y autenticación de usuario seguro
 
-Open Eclipse, then go to:
-File > Import > General > Existing Projects into Workspace
-Select the extracted project folder and click **Finish**.
+🧼 Validación de entradas en múltiples niveles
 
-Run the app from `PantallaCarga.java` as a **Java Application**.
+💻 Compatible con Windows, macOS y Linux
 
-> ⚠️ **Important**: Do **not** modify the `.java` files unless you're editing functionality.  
-> You can safely edit the `.txt` files to update users or texts.
+📋 Application Structure
+Pantalla	Descripción
+Pantalla de carga	Verifica archivos y configuración
+Pantalla de bienvenida	Entrada inicial con Play y Exit
+Login	Acceso de usuario/admin
+Panel de usuario	Acceso a niveles, estadísticas y tutoriales
+Panel de administrador	Gestión de usuarios y edición de textos
+Panel de práctica	Interfaz de escritura con métricas en tiempo real
+🎮 Difficulty Levels
+Feature	🅰️ Fácil	🅱️ Difícil
+Longitud texto	200 caracteres	1000 caracteres
+Tiempo límite	4 minutos	3 minutos
+Máx. errores	5	3
+Público objetivo	Principiantes	Usuarios avanzados
+🛠️ Installation & Usage
 
----
+Extrae el ZIP del proyecto.
 
-## 📁 Project File Structure
+En Eclipse:
+File → Import → Existing Projects into Workspace
 
-```plaintext
+Selecciona la carpeta del proyecto y haz clic en Finish.
+
+Ejecuta PantallaCarga.java como Java Application.
+
+⚠️ Importante: No modifiques los archivos .java a menos que quieras editar la funcionalidad.
+Puedes editar los archivos .txt de manera segura para actualizar usuarios o textos.
+
+📁 Project File Structure
 src/
 ├── 🚀 PantallaCarga.java        # Main entry point
-├── 🏠 PanelBienvenida.java      # Welcome screen
-├── 🔐 PanelLogin.java           # User/Admin login
-├── 👤 PanelUsuario.java         # User dashboard
-├── 👑 PanelAdministrador.java   # Admin panel
-├── 🅰️ PanelNivelFacil.java      # Easy typing level
-├── 🅱️ PanelNivelDificil.java    # Hard typing level
-├── ✏️ Lecciones.java            # Content editor for admin
-├── 👥 usuarios.txt              # User credentials
-├── 📝 textos.txt                # Practice texts
-└── 📊 estadisticas.txt          # Typing session statistics
----
+├── 🏠 PanelBienvenida.java      # Pantalla de bienvenida
+├── 🔐 PanelLogin.java           # Login usuario/admin
+├── 👤 PanelUsuario.java         # Panel de usuario
+├── 👑 PanelAdministrador.java   # Panel administrador
+├── 🅰️ PanelNivelFacil.java      # Nivel de mecanografía fácil
+├── 🅱️ PanelNivelDificil.java    # Nivel de mecanografía difícil
+├── ✏️ Lecciones.java            # Editor de textos para admin
+├── 👥 usuarios.txt              # Credenciales de usuario
+├── 📝 textos.txt                # Textos de práctica
+└── 📊 estadisticas.txt          # Estadísticas de sesiones
 
-## 💻 Technology Stack
+💻 Technology Stack
+Category	Details
+Language	Java 22
+UI Library	Java Swing
+Storage	Archivos de texto (.txt)
+Design	Interfaz visual clara con animaciones
+Compatibility	Windows, macOS, Linux
+⭐ Support & Contribute
 
-| Category         | Details                             |
-|------------------|-------------------------------------|
-| **Language**     | Java 22                             |
-| **UI Library**   | Java Swing                          |
-| **Storage**      | Plain text files (`.txt`)           |
-| **Design**       | Futuristic aesthetic with animation |
-| **Compatibility**| Windows, macOS, Linux               |
+Si te resulta útil este proyecto:
 
----
+🌟 Dale star en GitHub
 
-## ⭐ Support & Contribute
+🛠️ Haz fork y crea tu propia versión
 
-If you find this project helpful:
+🐛 Abre un issue si encuentras bugs o quieres sugerir mejoras
 
-- 🌟 Star this repository on GitHub  
-- 🛠️ Fork it and create your own version  
-- 🐛 Open an issue if you find bugs or want to suggest features
+👨‍💻 Author
 
----
-
-## 👨‍💻 Author
-
-Developed by **David Cereceda**  
-🎓 Computer Science Student | Passionate about Java, C#, AI, and Educational Software
+Desarrollado por David Cereceda
+🎓 Estudiante de informática | Apasionado por Java, C#, Node.js y desarrollo educativo

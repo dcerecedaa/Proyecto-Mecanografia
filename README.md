@@ -81,7 +81,22 @@ Esta aplicación ayuda a los usuarios a mejorar sus habilidades de mecanografía
 ---
 
 ## 📁 Estructura del Proyecto
-plaintext src/ ├── 🚀 PantallaCarga.java # Main entry point ├── 🏠 PanelBienvenida.java # Welcome screen ├── 🔐 PanelLogin.java # User/Admin login ├── 👤 PanelUsuario.java # User dashboard ├── 👑 PanelAdministrador.java # Admin panel ├── 🅰️ PanelNivelFacil.java # Easy typing level ├── 🅱️ PanelNivelDificil.java # Hard typing level ├── ✏️ Lecciones.java # Content editor for admin ├── 👥 usuarios.txt # User credentials ├── 📝 textos.txt # Practice texts └── 📊 estadisticas.txt # Typing session statistics ---
+
+```plaintext
+src/
+├── 🚀 PantallaCarga.java        # Punto de entrada principal
+├── 🏠 PanelBienvenida.java      # Pantalla de bienvenida
+├── 🔐 PanelLogin.java           # Login usuario/admin
+├── 👤 PanelUsuario.java         # Panel de usuario
+├── 👑 PanelAdministrador.java   # Panel administrador
+├── 🅰️ PanelNivelFacil.java      # Nivel de mecanografía fácil
+├── 🅱️ PanelNivelDificil.java    # Nivel de mecanografía difícil
+├── ✏️ Lecciones.java            # Editor de textos para admin
+├── 👥 usuarios.txt              # Credenciales de usuario
+├── 📝 textos.txt                # Textos de práctica
+└── 📊 estadisticas.txt          # Estadísticas de sesiones
+```
+
 ---
 
 ## 💻 Stack Tecnológico

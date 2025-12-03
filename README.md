@@ -124,6 +124,6 @@ src/
 ## 👨‍💻 Autor
 
 **Desarrollado por David Cereceda**  
-🎓 **Estudiante de informática** | Apasionado por Java, C#, Node.js y desarrollo educativo
+🎓 **Desarrollador Fullstack** | Apasionado por la programación
 
 ---

@@ -82,7 +82,7 @@ Esta aplicación ayuda a los usuarios a mejorar sus habilidades de mecanografía
 
 ## 📁 Estructura del Proyecto
 
-```plaintext
+```bash
 src/
 ├── 🚀 PantallaCarga.java        # Punto de entrada principal
 ├── 🏠 PanelBienvenida.java      # Pantalla de bienvenida
